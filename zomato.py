@@ -127,7 +127,9 @@ plt.show()
 # Data for India
 india_df = final_df[final_df['Country'] == 'India']
 print(india_df)
-
+# # Histogram for average cost for two in India
+# plt.hist(india_df['Average Cost for two'], bins=10, color='green')
+# plt.show()
 # Histogram for average cost for two in India
 plt.hist(india_df['Average Cost for two'], bins=10, color='green')
 plt.show()
